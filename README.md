@@ -11,6 +11,7 @@ This case study leverages data analysis to provide insights into cleaning operat
 - [English](#english)
   - [Introduction](#introduction)
   - [Tools and Libraries Used](#tools-and-libraries-used)
+  - [Data Dictionary](#data-dictionary)
   - [Curiosities](#curiosities)
   - [Objectives](#objectives)
   - [License](#license)
@@ -37,6 +38,40 @@ This case study leverages data analysis to provide insights into cleaning operat
 - **Matplotlib and Seaborn**: Used for creating informative visualizations, with Seaborn adding aesthetically pleasing statistical graphics.
 - **Plotly Express**: Enhanced data visualization with interactive and high-quality plots.
 - **NumPy and SciPy**: Employed for numerical computations and statistical analysis.
+
+# Data Dictionary
+
+This document describes the structure and content of the DataFrames used for generating visualizations in the hotel operations analysis project.
+
+## Main DataFrames (used to generate Graphics)
+
+### 1. `df_notas`
+- **Description**: Comprehensive DataFrame combining cleanliness scores, occupancy, and cleaning data. Used for plotting monthly notes and average cleanings per room.
+- **Columns**:
+  - `Mes`: Month of the year (1 to 12).
+  - `Nota Limpeza`: Cleanliness score for the month.
+  - `Média Limpezas Realizadas`: Average number of cleanings per room.
+
+### 2. `df_faxina`
+- **Description**: Detailed cleaning data for each staff member. Used to analyze the correlation between working days and cleaning performance.
+- **Columns**:
+  - `Mes`: Month of the year (1 to 12).
+  - `Faxineiro`: Identifier for the cleaning staff member.
+  - `Dias Trabalhados`: Number of unique days worked by the staff member.
+  - `Média Faxinas/Dia`: Average number of rooms cleaned per day.
+
+### 3. `media_por_funcionario`
+- **Description**: Average number of cleanings per day for each staff member. Used for boxplot visualization of daily cleaning averages.
+- **Columns**:
+  - `Faxineiro`: Identifier for the cleaning staff member.
+  - `Média Faxinas/Dia`: Average number of rooms cleaned per day.
+
+### 4. `customensal`
+- **Description**: Monthly fixed and variable cleaning costs. Used for comparing cost options for different cleaning strategies.
+- **Columns**:
+  - `Mes`: Month of the year (1 to 12).
+  - `Fixo Mensal`: Total fixed monthly cost.
+  - `Custo p/ Quarto`: Total variable cost per room cleaned.
 
 ### Curiosities
 
