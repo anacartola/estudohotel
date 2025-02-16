@@ -87,7 +87,7 @@ This project is licensed under the MIT License.
 
 ### Contact
 
-For questions or support, please contact [maintainer@example.com](mailto:maintainer@example.com).
+For questions or support, please contact [anacarolina.cartola@gmail.com](mailto:anacarolina.cartola@gmail.com).
 
 ## Português
 
@@ -118,4 +118,4 @@ Este projeto está licenciado sob a Licença MIT.
 
 ### Contato
 
-Para perguntas ou suporte, entre em contato com [maintainer@example.com](mailto:maintainer@example.com).
+Para perguntas ou suporte, entre em contato com [anacarolina.cartola@gmail.com](mailto:anacarolina.cartola@gmail.com).
